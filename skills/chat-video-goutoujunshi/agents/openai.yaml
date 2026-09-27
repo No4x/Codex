@@ -1,0 +1,6 @@
+interface:
+  display_name: "视频聊天记录军师"
+  short_description: "从聊天录屏提取并核验记录，再交给狗头军师分析关系"
+  default_prompt: "使用 $chat-video-goutoujunshi 提取这段聊天录屏，核对说话人和关键原话后交给狗头军师分析关系。"
+policy:
+  allow_implicit_invocation: true
