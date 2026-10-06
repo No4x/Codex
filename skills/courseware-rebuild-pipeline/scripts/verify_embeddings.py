@@ -21,7 +21,7 @@ PowerPoint 存 OLE 对象时，把源文件**原样**封进一个 OLE 复合文�
 
 用法
 ----
-  python verify_embeddings.py --pptx <文件.pptx> --html-dir <HTML 根目录> [--expect 17]
+  python verify_embeddings.py --pptx <文件.pptx> --html-dir <HTML 根目录> [--expect N]
 
   退出码 0 = 全部通过；1 = 有失败项。
 """
