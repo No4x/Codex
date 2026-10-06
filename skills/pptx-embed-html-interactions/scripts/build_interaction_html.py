@@ -16,6 +16,7 @@ import re
 import sys
 from pathlib import Path
 
+# ⚠️ 以下是**示例配置**（示例项目＝电气实训 · 项目一）；换课件时整段改成自己的路径。
 ROOT = Path(r"D:/BaiduSyncdisk/工作台_Codex")
 IMAGES = ROOT / "work/p1/项目一_常用低压电器_ppt169_20260930/images"
 SRC = ROOT / "work/p1/html_src"

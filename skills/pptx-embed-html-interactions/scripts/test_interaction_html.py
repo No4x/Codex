@@ -6,6 +6,7 @@ import pathlib
 import sys
 from playwright.sync_api import sync_playwright
 
+# ⚠️ 以下是**示例路径**（示例项目＝电气实训 · 项目一）；换课件时改成自己的目录。
 SRC = pathlib.Path(r"D:/BaiduSyncdisk/工作台_Codex/knowledge/lesson/电气控制技术实训/2026-2027-1/项目一/教学互动")
 OUT = pathlib.Path(r"D:/BaiduSyncdisk/工作台_Codex/work/p1/_html_shot/verify")
 OUT.mkdir(parents=True, exist_ok=True)
