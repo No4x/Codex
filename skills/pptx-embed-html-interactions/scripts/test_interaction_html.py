@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""对 9 个教学互动 HTML 做真实浏览器交互冒烟测试（Playwright + 本机 Edge）。"""
+"""对 `教学互动/` 目录下的**全部** HTML 逐个做真实浏览器交互冒烟测试
+（Playwright + 本机 Edge）。条数按目录实际扫到的算，**不写死**。"""
 import pathlib
 import sys
 from playwright.sync_api import sync_playwright
